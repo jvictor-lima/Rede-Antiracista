@@ -1,0 +1,90 @@
+
+body{
+    background: linear-gradient(68.15deg, #2b2a2a 16.62%, #252423 85.61%);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    flex-direction: column;
+    line-height: 10px;
+}
+.menu__link{
+    font-family: 'Montserrat';
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+a :hover{
+    color: #f4c430;
+    transition: 0.3s all;
+}
+.inscreva-se-btn{
+    border: 1.5px solid #ffd700;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1{
+    font-weight: 200;
+}
+.cor{
+    color: #f4c430;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 50px;
+    line-height: 8px;
+    font-family: 'Montserrat';
+}
+span{
+    color: #f4c430;
+}
+p{
+    line-height: 15px;
+    max-width: 450px;
+    font-family: 'Montserrat';
+}
+img{
+    margin: 0 100px;
+    width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 150px;
+    background-color: #ffd700;
+    color: #333;
+    font-weight: bold;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
